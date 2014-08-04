@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/data/VipramMezzFirmware/top_mezz/top.ncd
+OUTFILE=/data/VipramMezzFirmware/top_mezz/top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg484
+WORKINGDIR=/data/VipramMezzFirmware/top_mezz
+LICENSE=ISE
+USER_INFO=174141420_174141421_210581086_627

@@ -40,7 +40,7 @@ def GenerateInputs(testname):
     print "\nLoading full chip with Random numbers, Expecting clock frequency < 10MHz......\n"
     inputPattern.initializeLoadPhase()
     
-    for row in range(128):
+    for row in range(int(sys.argv[1]), int(sys.argv[1]) + 4):
         for col in range(32):
 	
 	    data1 = random.randint(0,32767)
@@ -48,7 +48,7 @@ def GenerateInputs(testname):
 	    data3 = random.randint(0,32767)
 	    data4 = random.randint(0,32767)
 	    
-	    inputPattern.loadSinglePattern(row, col,[data1,data2,data3,data4], 0 )
+	    inputPattern.loadSinglePattern(row, col,[data1,data2,data3,data4], 12)
 	    
 	    print "Loaded Data:", data1, "in Row:", row," Col:", col, "layerA"
 	    print "Loaded Data:", data2, "in Row:", row," Col:", col, "layerB"

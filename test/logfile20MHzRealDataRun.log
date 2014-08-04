@@ -1,0 +1,15 @@
+14:34:31
+calculated Output shift is  4
+No Mismatches!!!, 1024 matches
+14:37:11
+calculated Output shift is  4
+No Mismatches!!!, 1024 matches
+14:39:52
+calculated Output shift is  4
+No Mismatches!!!, 1024 matches
+14:42:32
+calculated Output shift is  4
+--no match for time slice:  24566 , checkData =  1 row = 127 Column/s Supposed to Match [31]
+Comparison: 10000000000000000000000000000000, 00000000000000000000000000000000
+There are 1 mismatches!
+There are 1023 matches!

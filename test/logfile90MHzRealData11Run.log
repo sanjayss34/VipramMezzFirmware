@@ -1,0 +1,35 @@
+09:36:27
+calculated Output shift is  5
+--no match for time slice:  15902 , checkData =  1 row = 20 Column/s Supposed to Match [22]
+Comparison: 00000000010000000000000000000000, 00000000000000000000000000000000
+--no match for time slice:  17294 , checkData =  1 row = 22 Column/s Supposed to Match [16]
+Comparison: 00000000000000010000000000000000, 00000000000000000000000000000000
+There are 2 mismatches!
+There are 1022 matches!
+09:39:09
+calculated Output shift is  5
+--no match for time slice:  326 , checkData =  1 row = 32 Column/s Supposed to Match [13]
+Comparison: 00000000000000000010000000000000, 00000000000000000000000000000000
+--no match for time slice:  10982 , checkData =  1 row = 46 Column/s Supposed to Match [9]
+Comparison: 00000000000000000000001000000000, 00000000000000000000000000000000
+--no match for time slice:  15686 , checkData =  1 row = 52 Column/s Supposed to Match [13]
+Comparison: 00000000000000000010000000000000, 00000000000000000000000000000000
+--no match for time slice:  24278 , checkData =  1 row = 63 Column/s Supposed to Match [19]
+Comparison: 00000000000010000000000000000000, 00000000000000000000000000000000
+There are 4 mismatches!
+There are 1020 matches!
+09:41:57
+calculated Output shift is  5
+--no match for time slice:  15806 , checkData =  1 row = 84 Column/s Supposed to Match [18]
+Comparison: 00000000000001000000000000000000, 00000000000000000000000000000000
+--no match for time slice:  18014 , checkData =  1 row = 87 Column/s Supposed to Match [14]
+Comparison: 00000000000000000100000000000000, 00000000000000000000000000000000
+--no match for time slice:  23414 , checkData =  1 row = 94 Column/s Supposed to Match [15]
+Comparison: 00000000000000001000000000000000, 00000000000000000000000000000000
+--no match for time slice:  24182 , checkData =  1 row = 95 Column/s Supposed to Match [15]
+Comparison: 00000000000000001000000000000000, 00000000000000000000000000000000
+There are 4 mismatches!
+There are 1020 matches!
+09:44:39
+calculated Output shift is  5
+No Mismatches!!!, 1024 matches

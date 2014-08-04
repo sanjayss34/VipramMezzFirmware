@@ -38,38 +38,43 @@ def GenerateInputs(testname):
     inputPattern = inputBuilder("root/"+testname+".root");
     
     row = int(sys.argv[1])
-    		
-    for col in range(32):
-    
-    	inputPattern.initializeLoadPhase()
+    print row
+    for row in range(row, row+4):
+    	for col in range(32):
+    	
+    		inputPattern.initializeLoadPhase()
+			
+    		data1 = random.randint(1,32767)
+    		data2 = random.randint(1,32767)
+    		data3 = random.randint(1,32767)
+    		data4 = random.randint(1,32767)
+		data5 = random.randint(1, 32767)
 		
-    	data1 = random.randint(0,32767)
-    	data2 = random.randint(0,32767)
-    	data3 = random.randint(0,32767)
-    	data4 = random.randint(0,32767)
+    		print "\nTesting Row:"+str(row)+" Column: "+str(col)+"\n"    
+    		inputPattern.loadSinglePattern(row, col,[data1,data2,data3,data4], 12)
+		    
+    		print "-Loaded Data:", data1, "in Row:", row," Col:"
 	
-    	print "\nTesting Row:"+str(row)+" Column: "+str(col)+"\n"    
-    	inputPattern.loadSinglePattern(row, col,[data1,data2,data3,data4], 10)
-	    
-    	print "-Loaded Data:", data1, "in Row:", row," Col:", col, "layerA"
-    	print "-Loaded Data:", data2, "in Row:", row," Col:", col, "layerB"
-    	print "-Loaded Data:", data3, "in Row:", row," Col:", col, "layerC"
-    	print "-Loaded Data:", data4, "in Row:", row," Col:", col, "layerD"
-
-    	inputPattern.initializeRunPhase( [1,0,0,0] )
-    	inputPattern.checkPattern( [21845, 21845, 21845, 21845] ,row)
-    	inputPattern.checkPattern( [data1,data2,data3,data4] ,row)
-    
-    	for i in range(10):
-    	    inputPattern.checkPattern( [21845, 21845, 21845, 21845] ,row)
-    	inputPattern.doRowChecker(row)
-    	for i in range(10):
-	    inputPattern.checkPattern( [21845, 21845, 21845, 21845] ,row)
-
+    		inputPattern.initializeRunPhase( [1,0,0,0] )
+    		inputPattern.checkPattern( [21845, 21845, 21845, 21845] ,row)
+    		inputPattern.checkPattern( [data1,data2,data3,data4] ,row)
+    	
+    		for i in range(10):
+    		    inputPattern.checkPattern( [21845, 21845, 21845, 21845] ,row)
+    		inputPattern.doRowChecker(row)
+    		for i in range(10):
+		    inputPattern.checkPattern( [21845, 21845, 21845, 21845] ,row)
+		#inputPattern.initializeLoadPhase()
+		#inputPattern.loadSinglePattern(row, col, [data2, data3, data4, data5], 12)
+		#print "-Later Loaded Data: " + str(data2) + " in Row: " + str(row) + " Col: " + str(col) + ", LayerA"
+		#print "-Later Loaded Data: " + str(data3) + " in Row: " + str(row) + " Col: " + str(col) + ", LayerB"
+		#print "-Later Loaded Data: " + str(data4) + " in Row: " + str(row) + " Col: " + str(col) + ", LayerC"
+		#print "-Later Loaded Data: " + str(data5) + " in Row: " + str(row) + " Col: " + str(col) + ", LayerD"
+	
 #    inputPattern.initializeLoadPhase()
 #    inputPattern.loadUniformPatterns(row,col,0,1)
 #    inputPattern.initializeRunPhase( [1,0,0,0] )
-    
+    	
     inputPattern.close()
     return inputPattern
 

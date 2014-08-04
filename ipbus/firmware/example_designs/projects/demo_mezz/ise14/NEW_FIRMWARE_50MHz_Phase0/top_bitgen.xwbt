@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/data/sanjayslocal/VipramMezzFirmware2/ipbus/firmware/example_designs/projects/demo_mezz/ise14/top.ncd
+OUTFILE=/data/sanjayslocal/VipramMezzFirmware2/ipbus/firmware/example_designs/projects/demo_mezz/ise14/top.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg484
+WORKINGDIR=/data/sanjayslocal/VipramMezzFirmware2/ipbus/firmware/example_designs/projects/demo_mezz/ise14
+LICENSE=ISE
+USER_INFO=174141420_174141421_210581086_627

@@ -1,14 +1,16 @@
 #!/bin/bash
 
-rm logfile.log
+rm logfile100MHz2.log
 echo "Starting test:"
 
-for rowaddr in `seq 0 127`;
+rowaddr=0
+while [ $rowaddr -lt 128 ];
 do
 timestamp=$(date +%T)
 echo $timestamp
-echo $timestamp >> logfile.log
+echo $timestamp >> logfile100MHz2.log
 echo "----Testing Row $rowaddr"
-python RandomNumberTest_FullRow.py $rowaddr --go | grep 'match\|Testing Row\|shift\|Loaded\|number of hits'| tee -a logfile.log
+python loadAllRandom.py $rowaddr --go | grep 'match\|Testing Row\|shift\|Loaded\|number of hits'| tee -a logfile100MHz2.log
+rowaddr=$[$rowaddr+4]
 sleep 1s 
 done

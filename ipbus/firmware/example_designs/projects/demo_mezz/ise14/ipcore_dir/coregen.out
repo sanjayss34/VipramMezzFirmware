@@ -1,0 +1,10 @@
+Release 14.7 - Xilinx CORE Generator P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+All runtime messages will be recorded in
+/data/sanjayslocal/VipramMezzFirmware2/ipbus/firmware/example_designs/projects/d
+emo_mezz/ise14/ipcore_dir/coregen.log
+INFO:encore:314 - Created non-GUI application for batch mode execution.
+ERROR:sim:879 - Part 'xa7a100t-2icsg324' is not valid for component
+   'xilinx.com:ip:gig_eth_pcs_pma:11.5'.
+ERROR:sim:918 - Could not create instance of component Ethernet 1000BASE-X
+   PCS/PMA or SGMII v11.5.

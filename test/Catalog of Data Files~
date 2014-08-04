@@ -1,0 +1,11 @@
+Catalog of Data Files
+logfile100MHz, logfile100MHz2 - may not be at 100MHz????
+logfile100MHzAlternative - For loadUniformPattern and firstFourBitsTest
+logfile50MHzRealData - For CERN low data at 50MHz (no reshuffling) - Test was first 4096 data lines in low file sequential
+logfile77MHzRealData - For CERN low data at 77 MHz (no reshuffling) - Test was first 4096 data lines in low file sequential
+logfile77MHzRealData2 - For CERN low data at 77 MHz (First Reshuffling (reshuffling was botched)) - Test was first 4096 data lines in low file sequential
+logfile77MHzRealData3 - For CERN low data at 77 MHz (Second Reshuffling (first reshuffling that was not botched)) - Test was first 4096 data lines in low file sequential
+logfile90MHzRealData2 - For CERN low data at 90 MHz (Second Reshuffling) - Test was first 4096 data lines in low file sequential
+logfile90MHzRealData3 - For CERN low data at 90 MHz (Third Reshuffling) - Test was first 4096 data lines in low file sequential
+logfile90MHzRealData5 - For CERN low data at 90 MHz (Fourth Reshuffling) - Test was 4096 randomly selected data lines in low file sequential
+

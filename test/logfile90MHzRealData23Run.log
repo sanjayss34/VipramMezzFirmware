@@ -1,0 +1,21 @@
+15:49:17
+calculated Output shift is  5
+--no match for time slice:  20342 , checkData =  1 row = 26 Column/s Supposed to Match [15]
+Comparison: 00000000000000001000000000000000, 00000000000000000000000000000000
+There are 1 mismatches!
+There are 1023 matches!
+15:51:58
+calculated Output shift is  5
+--no match for time slice:  16454 , checkData =  1 row = 53 Column/s Supposed to Match [13]
+Comparison: 00000000000000000010000000000000, 00000000000000000000000000000000
+There are 1 mismatches!
+There are 1023 matches!
+15:54:39
+calculated Output shift is  5
+No Mismatches!!!, 1024 matches
+15:57:20
+calculated Output shift is  5
+--no match for time slice:  2582 , checkData =  1 row = 99 Column/s Supposed to Match [11]
+Comparison: 00000000000000000000100000000000, 00000000000000000000000000000000
+There are 1 mismatches!
+There are 1023 matches!

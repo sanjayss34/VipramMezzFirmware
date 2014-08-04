@@ -1,0 +1,139 @@
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.xst" -ofn "/home/sergo/VipramMezzFirmware-1.4.0/top_mezz/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../ipbus/firmware/example_designs/hdl/demo_mezz -sd ipcore_dir -nt timestamp -uc /home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf -p xc7k160t-fbg484-1 top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-fbg484-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr b -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 2 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+bitgen -intstyle ise -f top.ut top.ncd 

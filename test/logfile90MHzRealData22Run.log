@@ -1,0 +1,48 @@
+15:19:45
+calculated Output shift is  5
+--no match for time slice:  16526 , checkData =  1 row = 21 Column/s Supposed to Match [16]
+Comparison: 00000000000000010000000000000000, 00000000000000000000000000000000
+--no match for time slice:  19502 , checkData =  1 row = 25 Column/s Supposed to Match [12]
+Comparison: 00000000000000000001000000000000, 00000000000000000000000000000000
+--no match for time slice:  21710 , checkData =  1 row = 28 Column/s Supposed to Match [8]
+Comparison: 00000000000000000000000100000000, 00000000000000000000000000000000
+There are 3 mismatches!
+There are 1021 matches!
+15:22:25
+calculated Output shift is  5
+--no match for time slice:  3302 , checkData =  1 row = 36 Column/s Supposed to Match [9]
+Comparison: 00000000000000000000001000000000, 00000000000000000000000000000000
+--no match for time slice:  6662 , checkData =  1 row = 40 Column/s Supposed to Match [21]
+Comparison: 00000000001000000000000000000000, 00000000000000000000000000000000
+--no match for time slice:  18782 , checkData =  1 row = 56 Column/s Supposed to Match [14]
+Comparison: 00000000000000000100000000000000, 00000000000000000000000000000000
+--no match for time slice:  21854 , checkData =  1 row = 60 Column/s Supposed to Match [14]
+Comparison: 00000000000000000100000000000000, 00000000000000000000000000000000
+There are 4 mismatches!
+There are 1020 matches!
+15:25:05
+calculated Output shift is  5
+--no match for time slice:  470 , checkData =  1 row = 64 Column/s Supposed to Match [19]
+Comparison: 00000000000010000000000000000000, 00000000000000000000000000000000
+--no match for time slice:  1934 , checkData =  1 row = 66 Column/s Supposed to Match [16]
+Comparison: 00000000000000010000000000000000, 00000000000000000000000000000000
+--no match for time slice:  11846 , checkData =  1 row = 79 Column/s Supposed to Match [13]
+Comparison: 00000000000000000010000000000000, 00000000000000000000000000000000
+--no match for time slice:  11870 , checkData =  1 row = 79 Column/s Supposed to Match [14]
+Comparison: 00000000000000000100000000000000, 00000000000000000000000000000000
+--no match for time slice:  18998 , checkData =  1 row = 88 Column/s Supposed to Match [23]
+Comparison: 00000000100000000000000000000000, 00000000000000000000000000000000
+--no match for time slice:  21158 , checkData =  1 row = 91 Column/s Supposed to Match [17]
+Comparison: 00000000000000100000000000000000, 00000000000000000000000000000000
+--no match for time slice:  21830 , checkData =  1 row = 92 Column/s Supposed to Match [13]
+Comparison: 00000000000000000010000000000000, 00000000000000000000000000000000
+There are 7 mismatches!
+There are 1017 matches!
+15:27:45
+calculated Output shift is  5
+--no match for time slice:  4142 , checkData =  1 row = 101 Column/s Supposed to Match [12]
+Comparison: 00000000000000000001000000000000, 00000000000000000000000000000000
+--no match for time slice:  14054 , checkData =  1 row = 114 Column/s Supposed to Match [9]
+Comparison: 00000000000000000000001000000000, 00000000000000000000000000000000
+There are 2 mismatches!
+There are 1022 matches!

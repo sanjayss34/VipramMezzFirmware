@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;tri_mode_eth_mac&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for sergo@fnal.gov on 03/10/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;tri_mode_eth_mac&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for sergo@fnal.gov on 03/10/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;tri_mode_eth_mac&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for sergo@fnal.gov on 03/10/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;tri_mode_eth_mac&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for sergo@fnal.gov on 03/10/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;TNM_NET=gt_clk;&gt; [/home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf(15)] was not distributed to the output pin TXOUTCLK of block eth/phy/transceiver_inst/gtwizard_inst/gtwizard_v2_5_gbe_gtx_i/gt0_gtwizard_v2_5_gbe_gtx_i/gtxe2_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;TNM_NET=gt_clk;&gt; [/home/sergo/VipramMezzFirmware-1.4.0/ipbus/firmware/example_designs/ucf/demo_mezz.ucf(15)] was not distributed to the output pin QPLLOUTREFCLK of block eth/phy/transceiver_inst/gtwizard_inst/gtwizard_v2_5_gbe_gtx_i/gtxe2_common_0_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">txoutclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_txoutclk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">eth/mcmm</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_eth_clk62_5_ub = PERIOD &quot;eth_clk62_5_ub&quot; TS_txoutclk HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">txoutclk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_txoutclk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">eth/mcmm</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_eth_clk125_ub = PERIOD &quot;eth_clk125_ub&quot; TS_txoutclk / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">gt_clk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_gt_clk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">clocks/mmcm</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clocks_clk_ipb_i = PERIOD &quot;clocks_clk_ipb_i&quot; TS_gt_clk / 0.25 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">main_clk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_main_clk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">slaves/slave6/mmcm_inst/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_slaves_slave6_mmcm_inst_clkout3 = PERIOD &quot;slaves_slave6_mmcm_inst_clkout3&quot; TS_main_clk / 0.05 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">main_clk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_main_clk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">slaves/slave6/mmcm_inst/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_slaves_slave6_mmcm_inst_clkout1 = PERIOD &quot;slaves_slave6_mmcm_inst_clkout1&quot; TS_main_clk / 0.454545455 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">main_clk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_main_clk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">slaves/slave6/mmcm_inst/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_slaves_slave6_mmcm_inst_clkout0 = PERIOD &quot;slaves_slave6_mmcm_inst_clkout0&quot; TS_main_clk / 0.454545455 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">main_clk</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_main_clk</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCME2_ADV</arg> instance <arg fmt="%s" index="5">slaves/slave6/mmcm_inst/mmcm_adv_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCME2_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_slaves_slave6_mmcm_inst_clkout2 = PERIOD &quot;slaves_slave6_mmcm_inst_clkout2&quot; TS_main_clk / 0.454545455 PHASE 1.375 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">slaves/slave6/power_inst/processor/read_strobe_flop</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">slaves/slave6/power_inst/processor/k_write_strobe_flop</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">eth/phy/transceiver_inst/reclock_txreset/reset_sync2</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">eth/phy/transceiver_inst/reclock_rxreset/reset_sync2</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">eth/phy/transceiver_inst/gtwizard_inst/gt0_txresetfsm_i/sync_QPLLLOCK/data_sync_reg</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">eth/phy/transceiver_inst/gtwizard_inst/gt0_rxresetfsm_i/sync_QPLLLOCK/data_sync_reg</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

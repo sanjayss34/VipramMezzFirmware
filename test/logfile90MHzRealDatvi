@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm logfile50MHzNewStress.sh
+
+rownum=0
+while [rownum -lt 128 ]

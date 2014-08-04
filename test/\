@@ -1,0 +1,7 @@
+import random
+from pVIPRAMInputBuilderClass import *
+
+def GenerateInputs(filename):
+	inputP = new inputBuilder("root/" + filename + ".root")
+	inputP.initializeLoadPhase()
+	

@@ -578,7 +578,8 @@ class inputBuilder:
                 if self.iCamStateD[i][j] == 1: missCtr += 1;                
                 
                 bLogic = False;    
-                if (missCtr == 4 and self.majorityLogic[0] == 1) or (missCtr == 3 and self.majorityLogic[1] == 1) or (missCtr == 2 and self.majorityLogic[2] == 1) or (missCtrA == 1 and self.majorityLogic[3] == 1): bLogic = True;
+                #Modified by sanjays on 6-23-14
+                if ((missCtr == 4 and self.majorityLogic[0] == 1) or (missCtr == 3 and self.majorityLogic[1] == 1) or (missCtr == 2 and self.majorityLogic[2] == 1)) and ((self.majorityLogic[3] == 0) or (missCtrA == 1 and self.majorityLogic[3] == 1)): bLogic = True;
                 
                 passMiss0 = 0;
                 passMiss1 = 0;

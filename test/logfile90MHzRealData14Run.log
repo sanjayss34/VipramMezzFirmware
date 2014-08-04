@@ -1,0 +1,35 @@
+10:39:24
+calculated Output shift is  5
+--no match for time slice:  12590 , checkData =  1 row = 16 Column/s Supposed to Match [12]
+Comparison: 00000000000000000001000000000000, 00000000000000000000000000000000
+--no match for time slice:  21710 , checkData =  1 row = 28 Column/s Supposed to Match [8]
+Comparison: 00000000000000000000000100000000, 00000000000000000000000000000000
+--no match for time slice:  22790 , checkData =  1 row = 29 Column/s Supposed to Match [21]
+Comparison: 00000000001000000000000000000000, 00000000000000000000000000000000
+--no match for time slice:  23438 , checkData =  1 row = 30 Column/s Supposed to Match [16]
+Comparison: 00000000000000010000000000000000, 00000000000000000000000000000000
+There are 4 mismatches!
+There are 1020 matches!
+10:42:04
+calculated Output shift is  5
+--no match for time slice:  4118 , checkData =  1 row = 37 Column/s Supposed to Match [11]
+Comparison: 00000000000000000000100000000000, 00000000000000000000000000000000
+--no match for time slice:  14270 , checkData =  1 row = 50 Column/s Supposed to Match [18]
+Comparison: 00000000000001000000000000000000, 00000000000000000000000000000000
+There are 2 mismatches!
+There are 1022 matches!
+10:44:43
+calculated Output shift is  5
+No Mismatches!!!, 1024 matches
+10:47:25
+calculated Output shift is  5
+--no match for time slice:  254 , checkData =  1 row = 96 Column/s Supposed to Match [10]
+Comparison: 00000000000000000000010000000000, 00000000000000000000000000000000
+--no match for time slice:  5726 , checkData =  1 row = 103 Column/s Supposed to Match [14]
+Comparison: 00000000000000000100000000000000, 00000000000000000000000000000000
+--no match for time slice:  11150 , checkData =  1 row = 110 Column/s Supposed to Match [16]
+Comparison: 00000000000000010000000000000000, 00000000000000000000000000000000
+--no match for time slice:  19406 , checkData =  1 row = 121 Column/s Supposed to Match [8]
+Comparison: 00000000000000000000000100000000, 00000000000000000000000000000000
+There are 4 mismatches!
+There are 1020 matches!
