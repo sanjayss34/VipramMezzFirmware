@@ -27,19 +27,19 @@ double predictedProbability(double frequency, double N, int c)
 		sumCols = sumCols + ( (1.0/(stdDev*sqrt(2*acos(-1.0))))*exp(-0.5*pow((k-mu)/stdDev, 2)) );
 	}
 	double stepSize = 0.01;
-	double integral1 = 0.0;
+	/*double integral1 = 0.0;
 	for (double c2 = 0; c2 < NUM_COLS; c2++)
 	{
 	double failureProb = 0.0;
 	for (double k = c2-0.5; k < c2+0.5; k = k+stepSize)
 	{
-		double fVal1 = /*NUM_COLS*(1-preliminaryEfficiency)*/(1.0/(stdDev*sqrt(2*acos(-1.0))))*exp(-0.5*pow((k-mu)/stdDev, 2));
-		double fVal2 = /*NUM_COLS*(1-preliminaryEfficiency)*/(1.0/(stdDev*sqrt(2*acos(-1.0))))*exp(-0.5*pow((k+stepSize-mu)/stdDev, 2));
+		double fVal1 = /*NUM_COLS*(1-preliminaryEfficiency)*(1.0/(stdDev*sqrt(2*acos(-1.0))))*exp(-0.5*pow((k-mu)/stdDev, 2));
+		double fVal2 = /*NUM_COLS*(1-preliminaryEfficiency)*(1.0/(stdDev*sqrt(2*acos(-1.0))))*exp(-0.5*pow((k+stepSize-mu)/stdDev, 2));
 		failureProb = failureProb + ((fVal1+fVal2)*0.5*stepSize);
 	}
 	integral1 = integral1 + failureProb;
-	}
-	double multiplier = (1.0-preliminaryEfficiency)*NUM_COLS/integral1;
+	}*/
+	double multiplier = (1.0-preliminaryEfficiency); //*NUM_COLS/integral1;
 	double failureProb = 0.0;
 	for (double k = c-0.5; k < c+0.5; k = k+stepSize)
 	{

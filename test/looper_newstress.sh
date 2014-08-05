@@ -1,12 +1,12 @@
 #!/bin/bash
 
-freq=100
+freq=142
 N=60
 
 while [ $N -lt 61 ];
 do
 
-B='F'
+B='FF'
 
 #iter=0
 #while [ $B -lt 3 ];
@@ -35,7 +35,7 @@ timestamp=$(date +%T)
 echo $timestamp
 echo $timestamp >> logfile${freq}MHzNewStressB${B}N${N}.log
 python RunFile3.py $rownum $N $freq --go | grep "Loaded\|checkData\|There\|Output" | tee -a logfile${freq}MHzNewStressB${B}N${N}.log
-rownum=$[$rownum+16]
+rownum=$[$rownum+8]
 sleep 1s
 done
 

@@ -29,16 +29,19 @@ def GenerateInputsRun(filename):
 	mult = (int(sys.argv[3])/10)+1
 	infoFile = open("NewStressInfoFile.txt", "r+")
 	infoLines = infoFile.readlines()
-	for row in range(int(sys.argv[1]), int(sys.argv[1])+16):
+	for row in range(int(sys.argv[1]), int(sys.argv[1])+8):
 		for col in range(0, 32, 4):
 			if (infoLines[row].split(" ")[col] == "N"):
 				inputP.initializeLoadPhase()
-				inputP.loadSinglePattern(row, col, [32766, 32766, 32766, 32766], mult)
-				print "Loading and Checking [32766, 32766, 32766, 32766] at Row: " + str(row) + ", Col: " + str(col)
+				#inputP.loadSinglePattern(row, col, [32766, 32766, 32766, 32766], mult)
+				#print "Loading and Checking [32766, 32766, 32766, 32766] at Row: " + str(row) + ", Col: " + str(col)
+				inputP.loadSinglePattern(row, col, [30720, 30720, 30720, 30720], mult)
+				print "Loading and Checking [30720, 30720, 30720, 30720] at Row: " + str(row) + ", Col: " + str(col)
 				for iteration in range(0, 1):
 					inputP.initializeRunPhase([1, 0, 0, 0])
 					inputP.checkPattern([21845, 21845, 21845, 21845], row)
-					inputP.checkPattern([32766, 32766, 32766, 32766], row)
+					#inputP.checkPattern([32766, 32766, 32766, 32766], row)
+					inputP.checkPattern([30720, 30720, 30720, 30720], row)
 					for i in range(0, 10):
 						inputP.checkPattern([21845, 21845, 21845, 21845], row)
 					inputP.doRowChecker(row)
@@ -49,12 +52,15 @@ def GenerateInputsRun(filename):
 				inputP.loadSinglePattern(row, col, [0, 0, 0, 0], mult)
 			else:
 				inputP.initializeLoadPhase()
-				inputP.loadSinglePattern(row, col, [32766, 32766, 32766, 32766], mult)
+				#inputP.loadSinglePattern(row, col, [32766, 32766, 32766, 32766], mult)
+				inputP.loadSinglePattern(row, col, [30720, 30720, 30720, 30720], mult)
 				inputP.initializeRunPhase([1, 0, 0, 0])
-				print "Loading and Checking [32766, 32766, 32766, 0] at Row: " + str(row) + ", Col: " + str(col)
+				#print "Loading and Checking [32766, 32766, 32766, 0] at Row: " + str(row) + ", Col: " + str(col)
+				print "Loading and Checking [30720, 30720, 30720, 30720] at Row: " + str(row) + ", Col: " + str(col)
 				for iteration in range(0, 1):
 					inputP.checkPattern([21845, 21845, 21845, 21845], row)
-					inputP.checkPattern([32766, 32766, 32766, 32766], row)
+					#inputP.checkPattern([32766, 32766, 32766, 32766], row)
+					inputP.checkPattern([30720, 30720, 30720, 30720], row)
 					for j in range(0, 10):
 						inputP.checkPattern([21845, 21845, 21845, 21845], row)
 					inputP.doRowChecker(row)
