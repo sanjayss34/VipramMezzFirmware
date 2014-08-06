@@ -63,7 +63,7 @@ def plotEffFrequency(summaryfile, freqList, NList):
 	summaryFile = open(summaryfile, "r+")
 	summary = summaryFile.readlines()
 	totalCompares = 1024.0
-	for n in range(0, 6):
+	for n in range(0, len(NList)):
 		efficiency = []
 		for f in freqList:
 			for s in summary:
@@ -77,7 +77,7 @@ def plotEffFrequency(summaryfile, freqList, NList):
 	#pyplot.plot(freqList, totalMatches)
 		freq = np.arange(0, 200, 1)
 		result = logisticFunctionBetter(freq, float(NList[n]))
-		pyplot.plot(freq, result, color=colorDesc[n])
+		pyplot.plot(freq, result, color=colorDesc[3])
 	#pyplot.plot(freq, logisticFunctionF(freq, 41.6086, -0.301068), colorDesc[0])
 	#pyplot.plot(freq, logisticFunctionF(freq, 24.7862, -0.224745), colorDesc[1])
 	#pyplot.plot(freq, logisticFunctionF(freq, 45.0752, -0.490972), colorDesc[2])
@@ -94,7 +94,7 @@ def plotEffFrequency(summaryfile, freqList, NList):
 	for nval in range(0, 6):
 		patchList.append(Patch(color=colorDesc[nval]))
 		labels.append("N = " + str(nval*20))
-	pyplot.legend(patchList, labels, loc='upper right')
+	#pyplot.legend(patchList, labels, loc='upper right')
 	pyplot.show()
 
 def nFunc(N):
@@ -105,7 +105,7 @@ def prepareDataFiles(fList, NList):
 	logfileNames = []
 	for fL in fList:
 		for nL in NList:
-			logfileNames.append("logfile"+str(fL)+"MHzNewStressBN"+str(nL)+".log")
+			logfileNames.append("logfile"+str(fL)+"MHzNewStressBFFN"+str(nL)+".log")
 	#for olf in otherLogFiles:
 		#logfileNames.append(olf)
 	#Format of logfile names in logfileNames: "logfile{freq}MHzNewStressBN{N_val}.log"
@@ -122,7 +122,7 @@ def prepareDataFiles(fList, NList):
 		logfile = open(logName, "r+")
 		logLines = logfile.readlines()
 		freq = float(logName.split("file")[1].split("MHz")[0])
-		N = float(logName.split("BN")[1].split(".log")[0])
+		N = float(logName.split("BFFN")[1].split(".log")[0])
 		#N=20
 		rowCount = 0
 		colCount = 0

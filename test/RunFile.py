@@ -23,8 +23,8 @@ import random
 #from conditionsTester2 import *
 #from DataDBit0Tester import *
 #from FiveAtATimeTest import *
-#from CERNDataTest import *
-from NewStressTest import *
+from CERNDataTest import *
+#from NewStressTest import *
 #from LocationStressTest import *
 
 parser = OptionParser()

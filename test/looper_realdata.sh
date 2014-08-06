@@ -1,8 +1,8 @@
 #!/bin/bash/
 
-freq=90
+freq=100
 i=4
-rm logfile${freq}MHzRealDataIO${i}.log
+rm logfile${freq}MHzRealDataNTO${i}.log
 
 python RandomArrangeLines.py "10kPatterns_sec27_0DC_lowPT_0DC.txt"
 rm ChosenBits.txt
@@ -18,8 +18,8 @@ while [ $linenum -lt 4097 ];
 do
 timestamp=$(date +%T)
 echo $timestamp
-echo $timestamp >> logfile${freq}MHzRealDataIO${i}.log
-python RunFile.py "Rearranged10kPatterns_sec27_0DC_lowPT_0DC.txt" $linenum "ChosenBits.txt" --go | grep 'Loaded\|There\|Output' | tee -a logfile${freq}MHzRealDataIO${i}.log
+echo $timestamp >> logfile${freq}MHzRealDataNTO${i}.log
+python RunFile.py "Rearranged10kPatterns_sec27_0DC_lowPT_0DC.txt" $linenum "ChosenBits.txt" --go | grep 'Loaded\|There\|Output' | tee -a logfile${freq}MHzRealDataNTO${i}.log
 linenum=$[$linenum+256]
 sleep 1s
 done

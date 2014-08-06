@@ -71,9 +71,9 @@ def GenerateInputsLoad(filename):
 		#inputsOut3.write("\n")
 		inputP.initializeLoadPhase()
 		#100 MHz:
-		#inputP.loadSinglePattern(rowCount, colCount, [nums[0], nums[1], nums[2], nums[3]], 12)
+		inputP.loadSinglePattern(rowCount, colCount, [nums[0], nums[1], nums[2], nums[3]], 12)
 		#90 MHz:
-		inputP.loadSinglePattern(rowCount, colCount, [nums[0], nums[1], nums[2], nums[3]], 10)
+		#inputP.loadSinglePattern(rowCount, colCount, [nums[0], nums[1], nums[2], nums[3]], 10)
 		#50 MHz:
 		#inputP.loadSinglePattern(rowCount, colCount, [nums[0], nums[1], nums[2], nums[3]], 6)
 		#77 MHz:
